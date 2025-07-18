@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main Icon -->
+    <g transform="translate(20, 20)">
+        <!-- Outer circle background -->
+        <circle cx="40" cy="40" r="35" fill="#0C22FF" opacity="0.1" />
+
+        <!-- Clean checkmark (same as favicon) -->
+        <g transform="translate(40, 40)">
+            <path d="M -18 -2 L -8 8 L 18 -18 L 22 -14 L -8 18 L -22 2 Z"
+                fill="#0C22FF" />
+
+            <!-- Accent highlight on checkmark tip -->
+            <path d="M 18 -18 L 22 -14 L 20 -12 L 16 -16 Z"
+                fill="#22FF0C" />
+        </g>
+    </g>
+
+    <!-- WordMark: QuizBoost -->
+    <text x="100" y="55"
+        font-family="Inter, system-ui, sans-serif"
+        font-size="32"
+        font-weight="700"
+        fill="#0C22FF">QuizBoost</text>
+
+    <!-- Tagline -->
+    <text x="100" y="78"
+        font-family="Inter, system-ui, sans-serif"
+        font-size="14"
+        font-weight="400"
+        fill="#666666">Prep Smarter. Score Higher.</text>
+
+    <!-- Accent dot on 'i' -->
+    <circle cx="149.25" cy="33" r="2.5" fill="#22FF0C" />
+</svg>
