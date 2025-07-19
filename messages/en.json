@@ -1,4 +1,415 @@
 {
-  "greeting": "Hello",
-  "farewell": "Goodbye"
+  "navbar": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "pricing": "Pricing",
+      "help": "Help"
+    },
+    "auth": {
+      "login": "Login",
+      "signup": "Sign Up",
+      "profile": "Profile",
+      "dashboard": "Dashboard",
+      "settings": "Settings",
+      "premium": "Go Premium",
+      "logout": "Log out"
+    },
+    "mobile": {
+      "menu": "Navigation Menu",
+      "description": "Access all features and navigate through the app"
+    }
+  },
+  "hero": {
+    "title": "Master Your Studies",
+    "subtitle": "Interactive Learning Platform for Academic Excellence",
+    "cta": "Start Learning Now",
+    "imageAlt": "Student studying with books and coffee"
+  },
+  "brand": {
+    "tagline": "Prep Smarter. Score Higher.",
+    "description": "Join thousands of students achieving their academic goals"
+  },
+  "subjects": {
+    "title": "Choose Your Subject",
+    "subtitle": "Select a subject you want to practice and boost your knowledge",
+    "selectedSubject": "Selected subject",
+    "startQuiz": "Start Quiz",
+    "selectSubjectFirst": "Select a subject to start",
+    "selectOneSubject": "Please select one subject to continue",
+    "items": {
+      "algebra": "Algebra",
+      "biology": "Biology",
+      "physics": "Physics",
+      "chemistry": "Chemistry",
+      "literature": "Literature",
+      "history": "History"
+    }
+  },
+  "stats": {
+    "students": "Students",
+    "quizzes": "Quizzes",
+    "successRate": "Success Rate"
+  },
+  "footer": {
+    "copyright": "© 2024 QuizBoost. All rights reserved.",
+    "links": {
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "help": "Help"
+    }
+  },
+  "auth": {
+    "signup": {
+      "title": "Create Your Account",
+      "subtitle": "Join QuizBoost to start your learning journey",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "password": "Password",
+      "passwordPlaceholder": "Create a strong password",
+      "passwordStrength": "Password strength",
+      "agreeToTerms": "I agree to the",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "signUp": "Sign Up",
+      "signingUp": "Signing up...",
+      "alreadyHaveAccount": "Already have an account?",
+      "logIn": "Log In"
+    },
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Enter your details to access your account",
+      "email": "Email address",
+      "emailPlaceholder": "name@company.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot password?",
+      "logIn": "Log in",
+      "loggingIn": "Logging in...",
+      "orContinueWith": "or continue with",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "social": {
+      "google": "Google",
+      "apple": "Apple"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "accountSettings": "Account Settings",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "changePassword": "Change Password",
+    "preferences": "Preferences",
+    "educationLevel": "Education Level",
+    "structuralQuestions": "Structural Questions",
+    "quizLength": "Quiz Length",
+    "timeLimit": "Time Limit",
+    "saveChanges": "Save Changes",
+    "deleteAccount": "Delete Account"
+  },
+  "onboarding": {
+    "title": "Tell Us About You",
+    "subtitle": "Customize your learning experience",
+    "educationLevel": "Education Level",
+    "educationLevelDesc": "Select your current education status",
+    "highSchool": "High School",
+    "highSchoolDesc": "Secondary education student",
+    "undergraduate": "Undergraduate",
+    "undergraduateDesc": "College or university student",
+    "graduate": "Graduate",
+    "graduateDesc": "Master's or PhD student",
+    "professionalCertification": "Professional Certification",
+    "professionalCertificationDesc": "Career development learner",
+    "quizPreferences": "Quiz Preferences",
+    "quizPreferencesDesc": "Customize your quiz settings",
+    "includeStructuralQuestions": "Include Structural Questions",
+    "includeStructuralQuestionsDesc": "Enable short-answer questions in your quizzes",
+    "preferredQuizLength": "Preferred Quiz Length",
+    "preferredTimeLimit": "Preferred Time Limit",
+    "saveAndContinue": "Save & Continue"
+  },
+  "chooseSubject": {
+    "title": "Choose Your Subject",
+    "startQuiz": "Start Quiz",
+    "subjects": {
+      "algebra": "Algebra",
+      "biology": "Biology",
+      "physics": "Physics",
+      "chemistry": "Chemistry",
+      "literature": "Literature",
+      "history": "History"
+    }
+  },
+  "chooseTopic": {
+    "title": "Choose Your Topic",
+    "topics": {
+      "quadratics": {
+        "name": "Quadratics",
+        "description": "Master quadratic equations"
+      },
+      "linearAlgebra": {
+        "name": "Linear Algebra",
+        "description": "Vectors and matrices"
+      },
+      "calculus": {
+        "name": "Calculus",
+        "description": "Derivatives and integrals"
+      },
+      "geometry": {
+        "name": "Geometry",
+        "description": "Shapes and spaces"
+      },
+      "statistics": {
+        "name": "Statistics",
+        "description": "Data analysis fundamentals"
+      },
+      "probability": {
+        "name": "Probability",
+        "description": "Chance and likelihood"
+      },
+      "trigonometry": {
+        "name": "Trigonometry",
+        "description": "Angular mathematics"
+      },
+      "numberTheory": {
+        "name": "Number Theory",
+        "description": "Prime numbers and patterns"
+      }
+    }
+  },
+  "quiz": {
+    "results": {
+      "score": "Score",
+      "percentage": "Percentage",
+      "timeTaken": "Time Taken",
+      "date": "Date",
+      "questionReview": "Question Review",
+      "retryQuiz": "Retry Quiz",
+      "goToDashboard": "Dashboard",
+      "viewHistory": "View History",
+      "tryDifferentQuiz": "Try Different Quiz",
+      "backToHome": "Back to Home",
+      "loading": "Loading...",
+      "diagnosticMode": "Diagnostic Mode",
+      "adaptiveMode": "Adaptive Mode",
+      "performance": {
+        "excellent": "Excellent work!",
+        "good": "Good job!",
+        "fair": "Fair performance",
+        "needsImprovement": "Needs improvement",
+        "studyMore": "Study more required"
+      }
+    }
+  },
+  "session_details": {
+    "back": "Back",
+    "page_title": "Session Details",
+    "title": "Advanced Mathematics",
+    "subtitle": "Calculus - Derivatives",
+    "retry_session": "Retry This Session",
+    "question1": {
+      "text": "What is the derivative of f(x) = 3x² + 2x + 1?",
+      "explanation": "The derivative of a polynomial is found by multiplying each term by its exponent and reducing the exponent by one. For 3x², the derivative is 6x. For 2x, it's 2. The constant term disappears."
+    },
+    "question2": {
+      "text": "Find the derivative of g(x) = sin(x) at x = π/2",
+      "explanation": "The derivative of sin(x) is cos(x). At x = π/2, cos(π/2) = 0, but we need to evaluate sin(x) at π/2, which is 1, and its rate of change (derivative) is -1 at that point."
+    },
+    "question3": {
+      "text": "What is the derivative of h(x) = e^(2x)?",
+      "explanation": "When differentiating an exponential function with base e, multiply by the exponent. Here, the exponent is 2x, so the derivative is 2e^(2x)."
+    }
+  },
+  "quiz_history": {
+    "page_title": "Quiz History",
+    "page_description": "Track your learning progress and review your quiz performance over time. Analyze your strengths and identify areas for improvement.",
+    "session_history": "Session History",
+    "performance_overview": "Performance Overview",
+    "performance_chart_title": "Score Trends",
+    "export_history": "Export History",
+    "your_learning_journey": "Your Learning Journey",
+    "stats": {
+      "total_sessions": "Total Sessions",
+      "average_score": "Average Score",
+      "highest_score": "Highest Score"
+    },
+    "filter": {
+      "time_period": "Time Period",
+      "select_period": "Select period",
+      "last_7_days": "Last 7 days",
+      "last_30_days": "Last 30 days",
+      "last_3_months": "Last 3 months",
+      "last_6_months": "Last 6 months",
+      "all_time": "All time"
+    },
+    "sessions": {
+      "javascript_basics": "JavaScript Basics",
+      "react_hooks": "React Hooks",
+      "css_grid": "CSS Grid",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "web_apis": "Web APIs",
+      "dom_manipulation": "DOM Manipulation"
+    }
+  },
+  "header": {
+    "auth": {
+      "profile": "Profile",
+      "dashboard": "Dashboard",
+      "history": "Quiz History",
+      "settings": "Settings",
+      "premium": "Upgrade to Premium",
+      "logout": "Log out"
+    }
+  },
+  "dashboard": {
+    "continueLearning": "Continue Learning",
+    "currentSubject": "JavaScript Basics",
+    "progress": "Progress",
+    "questionsCompleted": "questions completed",
+    "continue": "Continue",
+    "quickQuiz": "Quick Quiz",
+    "questions": "questions",
+    "minutes": "minutes",
+    "startNow": "Start Now",
+    "yourProgress": "Your Progress",
+    "lastQuizScore": "Last quiz score",
+    "viewAll": "View All",
+    "accuracyTrend": "Your Accuracy Trend",
+    "weeklyPerformance": "Weekly performance overview",
+    "recommendedTopics": "Recommended Topics",
+    "topicsBasedOnProgress": "Topics based on your progress",
+    "try": "Try",
+    "newSubject": {
+      "title": "Start Learning Something New",
+      "description": "Ready to explore a new topic? Choose from our wide range of subjects and start your learning journey.",
+      "subtext": "Over 50+ subjects available across different categories",
+      "button": "Choose New Subject"
+    }
+  },
+  "error": {
+    "title": "Oops! Something went wrong.",
+    "message": "We can't load questions right now. Please check your connection.",
+    "retry": "Retry",
+    "continueOffline": "Continue Offline"
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Boost your learning with the right tools",
+    "freePlan": {
+      "title": "Free Plan",
+      "price": "Free",
+      "button": "Get Started",
+      "features": {
+        "dailyQuizzes": "5 daily quizzes",
+        "basicAnalytics": "Basic performance analytics",
+        "coreSubjects": "Core subjects access",
+        "limitedQuestions": "Limited past questions",
+        "adSupported": "Ad-supported experience"
+      }
+    },
+    "premiumPlan": {
+      "title": "Premium Plan",
+      "price": "$9.99",
+      "period": "/month",
+      "badge": "Most Popular",
+      "button": "Upgrade to Premium",
+      "features": {
+        "unlimitedQuizzes": "Unlimited quizzes & mock exams",
+        "allSubjects": "All subjects (WAEC, GCE, NECO)",
+        "advancedAnalytics": "Advanced analytics",
+        "offlineAccess": "Offline access",
+        "adFree": "Ad-free experience",
+        "personalizedRevision": "Personalized revision",
+        "prioritySupport": "Priority support",
+        "earlyAccess": "Early access features"
+      }
+    },
+    "comparison": {
+      "title": "Compare Plans",
+      "features": "Features",
+      "free": "Free",
+      "premium": "Premium",
+      "items": {
+        "dailyQuizzes": "Daily Quizzes",
+        "performanceAnalytics": "Performance Analytics",
+        "subjectAccess": "Subject Access",
+        "pastQuestions": "Past Questions",
+        "adFreeExperience": "Ad-Free Experience",
+        "offlineAccess": "Offline Access",
+        "prioritySupport": "Priority Support",
+        "newFeatures": "New Features"
+      },
+      "values": {
+        "fivePerDay": "5/day",
+        "unlimited": "Unlimited",
+        "basic": "Basic",
+        "advanced": "Advanced",
+        "coreOnly": "Core Only",
+        "allSubjects": "All Subjects",
+        "limited": "Limited",
+        "fullAccess": "Full Access",
+        "no": "No",
+        "yes": "Yes",
+        "regular": "Regular",
+        "earlyAccess": "Early Access"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "freeTrial": {
+        "question": "How does the free trial work?",
+        "answer": "Start with our free plan and upgrade anytime. No credit card required for the trial."
+      },
+      "switchPlans": {
+        "question": "Can I switch plans later?",
+        "answer": "Yes, you can upgrade to Premium or downgrade to Free at any time."
+      },
+      "paymentMethods": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, Apple Pay, and Google Pay."
+      }
+    },
+    "footer": {
+      "cancelAnytime": "You can cancel or upgrade anytime",
+      "copyright": "© 2024 QuizBoost. All rights reserved.",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "support": "Support"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "gradingOptions": {
+      "title": "Grading Options",
+      "semanticScoring": {
+        "title": "Use Semantic Scoring",
+        "description": "Enable semantic scoring for more accurate quiz evaluation"
+      },
+      "showHints": {
+        "title": "Show Hints by Default",
+        "description": "Display hints automatically during quiz attempts"
+      }
+    },
+    "storagePrivacy": {
+      "title": "Storage & Privacy",
+      "clearProgress": "Clear All Progress",
+      "exportData": "Export Session Data",
+      "goPremium": "Go Premium",
+      "upgrade": "Upgrade"
+    },
+    "appInfo": {
+      "title": "App Info",
+      "version": "Version v1.0.0",
+      "about": "About QuizBoost"
+    },
+    "footer": {
+      "logout": "Log out"
+    }
+  }
 }

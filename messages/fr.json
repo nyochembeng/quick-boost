@@ -1,4 +1,415 @@
 {
-  "greeting": "Bonjour",
-  "farewell": "Au revoir"
+  "navbar": {
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "pricing": "Tarifs",
+      "help": "Aide"
+    },
+    "auth": {
+      "login": "Connexion",
+      "signup": "S'inscrire",
+      "profile": "Profil",
+      "dashboard": "Tableau de bord",
+      "settings": "Paramètres",
+      "premium": "Passer Premium",
+      "logout": "Se déconnecter"
+    },
+    "mobile": {
+      "menu": "Menu de navigation",
+      "description": "Accédez à toutes les fonctionnalités et naviguez dans l'application"
+    }
+  },
+  "hero": {
+    "title": "Maîtrisez Vos Études",
+    "subtitle": "Plateforme d'Apprentissage Interactif pour l'Excellence Académique",
+    "cta": "Commencer à Apprendre",
+    "imageAlt": "Étudiant étudiant avec des livres et du café"
+  },
+  "brand": {
+    "tagline": "Préparez-vous Plus Intelligemment. Obtenez de Meilleurs Résultats.",
+    "description": "Rejoignez des milliers d'étudiants qui atteignent leurs objectifs académiques"
+  },
+  "subjects": {
+    "title": "Choisissez Votre Matière",
+    "subtitle": "Sélectionnez une matière que vous souhaitez pratiquer et améliorez vos connaissances",
+    "selectedSubject": "Matière sélectionnée",
+    "startQuiz": "Commencer le Quiz",
+    "selectSubjectFirst": "Sélectionnez une matière pour commencer",
+    "selectOneSubject": "Veuillez sélectionner une matière pour continuer",
+    "items": {
+      "algebra": "Algèbre",
+      "biology": "Biologie",
+      "physics": "Physique",
+      "chemistry": "Chimie",
+      "literature": "Littérature",
+      "history": "Histoire"
+    }
+  },
+  "stats": {
+    "students": "Étudiants",
+    "quizzes": "Quiz",
+    "successRate": "Taux de Réussite"
+  },
+  "footer": {
+    "copyright": "© 2024 QuizBoost. Tous droits réservés.",
+    "links": {
+      "terms": "Conditions",
+      "privacy": "Confidentialité",
+      "help": "Aide"
+    }
+  },
+  "auth": {
+    "signup": {
+      "title": "Créer votre compte",
+      "subtitle": "Rejoignez QuizBoost pour commencer votre parcours d'apprentissage",
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Entrez votre nom complet",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "Entrez votre adresse e-mail",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Créez un mot de passe fort",
+      "passwordStrength": "Force du mot de passe",
+      "agreeToTerms": "J'accepte les",
+      "termsOfService": "Conditions d'utilisation",
+      "and": "et",
+      "privacyPolicy": "Politique de confidentialité",
+      "signUp": "S'inscrire",
+      "signingUp": "Inscription en cours...",
+      "alreadyHaveAccount": "Vous avez déjà un compte ?",
+      "logIn": "Se connecter"
+    },
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Entrez vos informations pour accéder à votre compte",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "nom@entreprise.com",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "forgotPassword": "Mot de passe oublié ?",
+      "logIn": "Se connecter",
+      "loggingIn": "Connexion en cours...",
+      "orContinueWith": "ou continuer avec",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "signUp": "S'inscrire"
+    },
+    "social": {
+      "google": "Google",
+      "apple": "Apple"
+    }
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "accountSettings": "Paramètres du Compte",
+    "fullName": "Nom Complet",
+    "emailAddress": "Adresse Email",
+    "changePassword": "Changer le Mot de Passe",
+    "preferences": "Préférences",
+    "educationLevel": "Niveau d'Éducation",
+    "structuralQuestions": "Questions Structurelles",
+    "quizLength": "Durée du Quiz",
+    "timeLimit": "Limite de Temps",
+    "saveChanges": "Enregistrer les Modifications",
+    "deleteAccount": "Supprimer le Compte"
+  },
+  "onboarding": {
+    "title": "Parlez-nous de Vous",
+    "subtitle": "Personnalisez votre expérience d'apprentissage",
+    "educationLevel": "Niveau d'Éducation",
+    "educationLevelDesc": "Sélectionnez votre statut éducatif actuel",
+    "highSchool": "Lycée",
+    "highSchoolDesc": "Étudiant de l'enseignement secondaire",
+    "undergraduate": "Licence",
+    "undergraduateDesc": "Étudiant universitaire ou collégial",
+    "graduate": "Master/Doctorat",
+    "graduateDesc": "Étudiant en Master ou Doctorat",
+    "professionalCertification": "Certification Professionnelle",
+    "professionalCertificationDesc": "Apprenant en développement de carrière",
+    "quizPreferences": "Préférences de Quiz",
+    "quizPreferencesDesc": "Personnalisez vos paramètres de quiz",
+    "includeStructuralQuestions": "Inclure les Questions Structurelles",
+    "includeStructuralQuestionsDesc": "Activer les questions à réponse courte dans vos quiz",
+    "preferredQuizLength": "Durée de Quiz Préférée",
+    "preferredTimeLimit": "Limite de Temps Préférée",
+    "saveAndContinue": "Enregistrer et Continuer"
+  },
+  "chooseSubject": {
+    "title": "Choisissez Votre Matière",
+    "startQuiz": "Commencer le Quiz",
+    "subjects": {
+      "algebra": "Algèbre",
+      "biology": "Biologie",
+      "physics": "Physique",
+      "chemistry": "Chimie",
+      "literature": "Littérature",
+      "history": "Histoire"
+    }
+  },
+  "chooseTopic": {
+    "title": "Choisissez Votre Sujet",
+    "topics": {
+      "quadratics": {
+        "name": "Équations Quadratiques",
+        "description": "Maîtriser les équations quadratiques"
+      },
+      "linearAlgebra": {
+        "name": "Algèbre Linéaire",
+        "description": "Vecteurs et matrices"
+      },
+      "calculus": {
+        "name": "Calcul",
+        "description": "Dérivées et intégrales"
+      },
+      "geometry": {
+        "name": "Géométrie",
+        "description": "Formes et espaces"
+      },
+      "statistics": {
+        "name": "Statistiques",
+        "description": "Fondamentaux de l'analyse de données"
+      },
+      "probability": {
+        "name": "Probabilité",
+        "description": "Chance et vraisemblance"
+      },
+      "trigonometry": {
+        "name": "Trigonométrie",
+        "description": "Mathématiques angulaires"
+      },
+      "numberTheory": {
+        "name": "Théorie des Nombres",
+        "description": "Nombres premiers et modèles"
+      }
+    }
+  },
+  "quiz": {
+    "results": {
+      "score": "Score",
+      "percentage": "Pourcentage",
+      "timeTaken": "Temps Pris",
+      "date": "Date",
+      "questionReview": "Révision des Questions",
+      "retryQuiz": "Refaire le Quiz",
+      "goToDashboard": "Tableau de Bord",
+      "viewHistory": "Voir l'Historique",
+      "tryDifferentQuiz": "Essayer un Autre Quiz",
+      "backToHome": "Retour à l'Accueil",
+      "loading": "Chargement...",
+      "diagnosticMode": "Mode Diagnostic",
+      "adaptiveMode": "Mode Adaptatif",
+      "performance": {
+        "excellent": "Excellent travail!",
+        "good": "Bon travail!",
+        "fair": "Performance correcte",
+        "needsImprovement": "Nécessite amélioration",
+        "studyMore": "Plus d'étude requise"
+      }
+    }
+  },
+  "session_details": {
+    "back": "Retour",
+    "page_title": "Détails de la Session",
+    "title": "Mathématiques Avancées",
+    "subtitle": "Calcul - Dérivées",
+    "retry_session": "Recommencer cette Session",
+    "question1": {
+      "text": "Quelle est la dérivée de f(x) = 3x² + 2x + 1?",
+      "explanation": "La dérivée d'un polynôme se trouve en multipliant chaque terme par son exposant et en réduisant l'exposant d'un. Pour 3x², la dérivée est 6x. Pour 2x, c'est 2. Le terme constant disparaît."
+    },
+    "question2": {
+      "text": "Trouvez la dérivée de g(x) = sin(x) à x = π/2",
+      "explanation": "La dérivée de sin(x) est cos(x). À x = π/2, cos(π/2) = 0, mais nous devons évaluer sin(x) à π/2, qui est 1, et son taux de changement (dérivée) est -1 à ce point."
+    },
+    "question3": {
+      "text": "Quelle est la dérivée de h(x) = e^(2x)?",
+      "explanation": "Lors de la différentiation d'une fonction exponentielle avec base e, multipliez par l'exposant. Ici, l'exposant est 2x, donc la dérivée est 2e^(2x)."
+    }
+  },
+  "quiz_history": {
+    "page_title": "Historique des Quiz",
+    "page_description": "Suivez vos progrès d'apprentissage et examinez vos performances aux quiz au fil du temps. Analysez vos forces et identifiez les domaines à améliorer.",
+    "session_history": "Historique des Sessions",
+    "performance_overview": "Aperçu des Performances",
+    "performance_chart_title": "Tendances des Scores",
+    "export_history": "Exporter l'Historique",
+    "your_learning_journey": "Votre Parcours d'Apprentissage",
+    "stats": {
+      "total_sessions": "Sessions Totales",
+      "average_score": "Score Moyen",
+      "highest_score": "Meilleur Score"
+    },
+    "filter": {
+      "time_period": "Période",
+      "select_period": "Sélectionner une période",
+      "last_7_days": "7 derniers jours",
+      "last_30_days": "30 derniers jours",
+      "last_3_months": "3 derniers mois",
+      "last_6_months": "6 derniers mois",
+      "all_time": "Depuis le début"
+    },
+    "sessions": {
+      "javascript_basics": "Bases de JavaScript",
+      "react_hooks": "Hooks React",
+      "css_grid": "CSS Grid",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "web_apis": "APIs Web",
+      "dom_manipulation": "Manipulation du DOM"
+    }
+  },
+  "header": {
+    "auth": {
+      "profile": "Profil",
+      "dashboard": "Tableau de bord",
+      "history": "Historique des Quiz",
+      "settings": "Paramètres",
+      "premium": "Passer à Premium",
+      "logout": "Se déconnecter"
+    }
+  },
+  "dashboard": {
+    "continueLearning": "Continuer l'Apprentissage",
+    "currentSubject": "Bases de JavaScript",
+    "progress": "Progrès",
+    "questionsCompleted": "questions complétées",
+    "continue": "Continuer",
+    "quickQuiz": "Quiz Rapide",
+    "questions": "questions",
+    "minutes": "minutes",
+    "startNow": "Commencer Maintenant",
+    "yourProgress": "Vos Progrès",
+    "lastQuizScore": "Score du dernier quiz",
+    "viewAll": "Voir Tout",
+    "accuracyTrend": "Votre Tendance de Précision",
+    "weeklyPerformance": "Aperçu des performances hebdomadaires",
+    "recommendedTopics": "Sujets Recommandés",
+    "topicsBasedOnProgress": "Sujets basés sur vos progrès",
+    "try": "Essayer",
+    "newSubject": {
+      "title": "Commencer à Apprendre Quelque Chose de Nouveau",
+      "description": "Prêt à explorer un nouveau sujet ? Choisissez parmi notre large gamme de matières et commencez votre parcours d'apprentissage.",
+      "subtext": "Plus de 50 matières disponibles dans différentes catégories",
+      "button": "Choisir un Nouveau Sujet"
+    }
+  },
+  "error": {
+    "title": "Oups ! Quelque chose s'est mal passé.",
+    "message": "Nous ne pouvons pas charger les questions maintenant. Veuillez vérifier votre connexion.",
+    "retry": "Réessayer",
+    "continueOffline": "Continuer Hors Ligne"
+  },
+  "pricing": {
+    "title": "Choisissez Votre Plan",
+    "subtitle": "Boostez votre apprentissage avec les bons outils",
+    "freePlan": {
+      "title": "Plan Gratuit",
+      "price": "Gratuit",
+      "button": "Commencer",
+      "features": {
+        "dailyQuizzes": "5 quiz quotidiens",
+        "basicAnalytics": "Analyses de performance de base",
+        "coreSubjects": "Accès aux matières principales",
+        "limitedQuestions": "Questions passées limitées",
+        "adSupported": "Expérience avec publicités"
+      }
+    },
+    "premiumPlan": {
+      "title": "Plan Premium",
+      "price": "$9.99",
+      "period": "/mois",
+      "badge": "Le Plus Populaire",
+      "button": "Passer au Premium",
+      "features": {
+        "unlimitedQuizzes": "Quiz et examens blancs illimités",
+        "allSubjects": "Toutes les matières (WAEC, GCE, NECO)",
+        "advancedAnalytics": "Analyses avancées",
+        "offlineAccess": "Accès hors ligne",
+        "adFree": "Expérience sans publicité",
+        "personalizedRevision": "Révision personnalisée",
+        "prioritySupport": "Support prioritaire",
+        "earlyAccess": "Accès anticipé aux fonctionnalités"
+      }
+    },
+    "comparison": {
+      "title": "Comparer les Plans",
+      "features": "Fonctionnalités",
+      "free": "Gratuit",
+      "premium": "Premium",
+      "items": {
+        "dailyQuizzes": "Quiz Quotidiens",
+        "performanceAnalytics": "Analyses de Performance",
+        "subjectAccess": "Accès aux Matières",
+        "pastQuestions": "Questions Passées",
+        "adFreeExperience": "Expérience Sans Publicité",
+        "offlineAccess": "Accès Hors Ligne",
+        "prioritySupport": "Support Prioritaire",
+        "newFeatures": "Nouvelles Fonctionnalités"
+      },
+      "values": {
+        "fivePerDay": "5/jour",
+        "unlimited": "Illimité",
+        "basic": "Basique",
+        "advanced": "Avancé",
+        "coreOnly": "Principales Seulement",
+        "allSubjects": "Toutes les Matières",
+        "limited": "Limité",
+        "fullAccess": "Accès Complet",
+        "no": "Non",
+        "yes": "Oui",
+        "regular": "Régulier",
+        "earlyAccess": "Accès Anticipé"
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "freeTrial": {
+        "question": "Comment fonctionne l'essai gratuit ?",
+        "answer": "Commencez avec notre plan gratuit et passez au premium quand vous voulez. Aucune carte de crédit requise pour l'essai."
+      },
+      "switchPlans": {
+        "question": "Puis-je changer de plan plus tard ?",
+        "answer": "Oui, vous pouvez passer au Premium ou revenir au Gratuit à tout moment."
+      },
+      "paymentMethods": {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons toutes les cartes de crédit principales, Apple Pay et Google Pay."
+      }
+    },
+    "footer": {
+      "cancelAnytime": "Vous pouvez annuler ou passer au premium à tout moment",
+      "copyright": "© 2024 QuizBoost. Tous droits réservés.",
+      "terms": "Conditions",
+      "privacy": "Confidentialité",
+      "support": "Support"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "gradingOptions": {
+      "title": "Options de Notation",
+      "semanticScoring": {
+        "title": "Utiliser la Notation Sémantique",
+        "description": "Activer la notation sémantique pour une évaluation de quiz plus précise"
+      },
+      "showHints": {
+        "title": "Afficher les Indices par Défaut",
+        "description": "Afficher automatiquement les indices pendant les tentatives de quiz"
+      }
+    },
+    "storagePrivacy": {
+      "title": "Stockage et Confidentialité",
+      "clearProgress": "Effacer Tous les Progrès",
+      "exportData": "Exporter les Données de Session",
+      "goPremium": "Passer au Premium",
+      "upgrade": "Mettre à Niveau"
+    },
+    "appInfo": {
+      "title": "Infos de l'App",
+      "version": "Version v1.0.0",
+      "about": "À Propos de QuizBoost"
+    },
+    "footer": {
+      "logout": "Se déconnecter"
+    }
+  }
 }
